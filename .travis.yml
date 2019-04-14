@@ -10,7 +10,7 @@ install:
   - poetry install
 
 script:
-  - make lint test BIN=""
+  - make lint test
 
 after_success:
   - codecov

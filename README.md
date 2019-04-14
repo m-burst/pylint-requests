@@ -3,7 +3,7 @@
 [![pypi](https://badge.fury.io/py/pylint-requests.svg)](https://pypi.org/project/pylint-requests)
 [![Python: 3.6+](https://img.shields.io/badge/Python-3.6+-blue.svg)](https://pypi.org/project/pylint-requests)
 [![Downloads](https://img.shields.io/pypi/dm/pylint-requests.svg)](https://pypistats.org/packages/pylint-requests)
-[![Build Status](https://travis-ci.org/m-burst/pylint-requests.svg?branch=master)](https://travis-ci.org/m-burst/pylint-requests)
+[![Build Status](https://travis-ci.com/m-burst/pylint-requests.svg?branch=master)](https://travis-ci.com/m-burst/pylint-requests)
 [![Code coverage](https://codecov.io/gh/m-burst/pylint-requests/branch/master/graph/badge.svg)](https://codecov.io/gh/m-burst/pylint-requests)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://en.wikipedia.org/wiki/MIT_License)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
