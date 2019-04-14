@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pylint-requests"
-version = "0.0.0"
+version = "0.1.0"
 description = "A pylint plugin to check for common issues with usage of requests"
 authors = ["Mikhail Burshteyn <mdburshteyn@gmail.com>"]
 license = "MIT"
