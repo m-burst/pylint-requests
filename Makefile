@@ -1,4 +1,4 @@
-.PHONY: init test test-cov lint pretty precommit_install
+.PHONY: init test test-cov lint format
 
 CODE = pylint_requests
 TEST = pytest --verbosity=2 --showlocals --strict --cov=$(CODE)
@@ -21,7 +21,7 @@ lint:
 	black --target-version py36 --skip-string-normalization --check $(CODE) tests
 	pytest --dead-fixtures --dup-fixtures
 
-pretty:
+format:
 	isort --apply --recursive $(CODE) tests
 	black --target-version py36 --skip-string-normalization $(CODE) tests
 	unify --in-place --recursive $(CODE) tests

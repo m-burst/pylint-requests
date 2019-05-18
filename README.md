@@ -40,7 +40,7 @@ Use pylint's `--load-plugins` option to enable the plugin:
 
 ### Run linters, autoformat, tests etc.
 
-    make pretty lint test
+    make format lint test
 
 ### Bump new version
 
