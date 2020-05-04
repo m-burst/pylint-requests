@@ -1,6 +1,7 @@
 from typing import List
 
 from astroid import AstroidIndexError, AstroidTypeError, InferenceError, bases, nodes
+from astroid.exceptions import AttributeInferenceError
 from astroid.node_classes import NodeNG
 
 FUNCTION_NODES = (nodes.FunctionDef, bases.UnboundMethod, bases.BoundMethod)
@@ -59,10 +60,13 @@ def _lookup(node: NodeNG) -> List[NodeNG]:
         try:
             obj = next(node.expr.infer())
         except InferenceError:
-            pass
-        else:
-            if isinstance(obj, bases.Instance):
+            return []
+
+        if isinstance(obj, bases.Instance):
+            try:
                 return obj.getattr(node.attrname)
+            except AttributeInferenceError:
+                return []
 
     return []
 
