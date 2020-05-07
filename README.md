@@ -54,6 +54,10 @@ MIT
 
 ## Change Log
 
-### 0.1.0 - 2019-04-14
+**Unreleased**
+
+* fix crash with `AttributeInferenceError` on optional function parameters
+
+**0.1.0 - 2019-04-14**
 
 * initial
