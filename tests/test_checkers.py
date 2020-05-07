@@ -40,6 +40,17 @@ class TestTimeoutChecker(CheckerTestCase):
         with self.assertAddsMessages(Message('request-without-timeout', node=node)):
             self.walk(node.root())
 
+    def test_optional_param_attribute_access(self):
+        node = extract_node(
+            '''
+            def get_something_from_document_or_none(document=None):
+                if document is not None:
+                    return document.META.get('QUERY_STRING')
+            '''
+        )
+        with self.assertNoMessages():
+            self.walk(node.root())
+
 
 class TestRequestsInstalledChecker(CheckerTestCase):
     CHECKER_CLASS = RequestsInstalledChecker
