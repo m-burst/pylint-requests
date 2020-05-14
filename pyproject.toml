@@ -23,7 +23,7 @@ pylint = "^2.0"
 
 [tool.poetry.dev-dependencies]
 black = {version = "^19.3b0",allow-prereleases = true}
-bumpversion = "^0.5.3"
+bumpversion = "^0.6.0"
 flake8-awesome = ">=0.2.0"
 mypy = "^0.770"
 pytest = "^5.4.2"
