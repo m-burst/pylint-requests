@@ -25,7 +25,7 @@ pylint = "^2.0"
 black = {version = "^19.3b0",allow-prereleases = true}
 flake8-awesome = ">=0.2.0"
 mypy = "^0.770"
-pytest = "^5.4.2"
+pytest = "^5.4.3"
 pytest-cov = "^2.9"
 pytest-deadfixtures = "^2.1"
 pytest-mock = "^3.1.0"
