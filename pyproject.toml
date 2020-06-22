@@ -19,6 +19,7 @@ classifiers = [
 [tool.poetry.dependencies]
 python = "^3.6"
 
+astroid = "^2.0"
 pylint = "^2.0"
 
 [tool.poetry.dev-dependencies]
