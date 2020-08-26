@@ -693,7 +693,7 @@ description = "Thin-wrapper around the mock package for easier use with pytest"
 name = "pytest-mock"
 optional = false
 python-versions = ">=3.5"
-version = "3.3.0"
+version = "3.3.1"
 
 [package.dependencies]
 pytest = ">=5.0"
@@ -853,7 +853,7 @@ docs = ["sphinx", "jaraco.packaging (>=3.2)", "rst.linker (>=1.9)"]
 testing = ["jaraco.itertools", "func-timeout"]
 
 [metadata]
-content-hash = "8ef79e3a34d72300125e7a6a8efb86420eb29c451f2ba1508087be515fd3c2a7"
+content-hash = "23e008d0859fc15035f1f96a756f756ebafb332f4f7f0102617074cb8d471a1b"
 python-versions = "^3.6"
 
 [metadata.files]
@@ -1142,8 +1142,8 @@ pytest-deadfixtures = [
     {file = "pytest_deadfixtures-2.2.1-py2.py3-none-any.whl", hash = "sha256:db71533f2d9456227084e00a1231e732973e299ccb7c37ab92e95032ab6c083e"},
 ]
 pytest-mock = [
-    {file = "pytest-mock-3.3.0.tar.gz", hash = "sha256:1d146a6e798b9e6322825e207b4e0544635e679b69253e6e01a221f45945d2f6"},
-    {file = "pytest_mock-3.3.0-py3-none-any.whl", hash = "sha256:0061f9e8f14b77d0f3915a00f18b1b71f07da3c8bd66994e42ee91537681a76e"},
+    {file = "pytest-mock-3.3.1.tar.gz", hash = "sha256:a4d6d37329e4a893e77d9ffa89e838dd2b45d5dc099984cf03c703ac8411bb82"},
+    {file = "pytest_mock-3.3.1-py3-none-any.whl", hash = "sha256:024e405ad382646318c4281948aadf6fe1135632bea9cc67366ea0c4098ef5f2"},
 ]
 pyyaml = [
     {file = "PyYAML-5.3.1-cp27-cp27m-win32.whl", hash = "sha256:74809a57b329d6cc0fdccee6318f44b9b8649961fa73144a98735b0aaf029f1f"},
