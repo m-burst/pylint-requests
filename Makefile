@@ -1,7 +1,7 @@
 .PHONY: init test test-cov lint format
 
 CODE = pylint_requests
-TEST = poetry run pytest --verbosity=2 --showlocals --strict --cov=$(CODE)
+TEST = poetry run pytest --verbosity=2 --showlocals --strict-markers --cov=$(CODE)
 
 init:
 	poetry install
