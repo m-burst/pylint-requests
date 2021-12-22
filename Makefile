@@ -22,7 +22,7 @@ lint:
 	poetry run pytest --dead-fixtures --dup-fixtures
 
 format:
-	poetry run isort --apply --recursive $(CODE) tests
+	poetry run isort $(CODE) tests
 	poetry run black --target-version py36 --skip-string-normalization $(CODE) tests
 	poetry run unify --in-place --recursive $(CODE) tests
 

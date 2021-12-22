@@ -2,7 +2,11 @@ from typing import List
 
 from astroid import AstroidIndexError, AstroidTypeError, InferenceError, bases, nodes
 from astroid.exceptions import AttributeInferenceError
-from astroid.node_classes import NodeNG
+
+try:
+    from astroid.nodes import NodeNG
+except ImportError:  # astroid < 2.7.0  # pragma: no cover
+    from astroid.node_classes import NodeNG
 
 FUNCTION_NODES = (nodes.FunctionDef, bases.UnboundMethod, bases.BoundMethod)
 
