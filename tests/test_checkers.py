@@ -1,5 +1,5 @@
 from astroid import extract_node, parse
-from pylint.testutils import CheckerTestCase, Message
+from pylint.testutils import CheckerTestCase, MessageTest
 
 from pylint_requests import RequestsInstalledChecker, TimeoutChecker
 
@@ -37,7 +37,7 @@ class TestTimeoutChecker(CheckerTestCase):
             '''
         )
 
-        with self.assertAddsMessages(Message('request-without-timeout', node=node)):
+        with self.assertAddsMessages(MessageTest('request-without-timeout', node=node)):
             self.walk(node.root())
 
     def test_optional_param_attribute_access(self):
