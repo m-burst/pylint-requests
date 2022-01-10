@@ -25,7 +25,7 @@ pylint = "^2.0"
 [tool.poetry.dev-dependencies]
 black = {version = "^21.12b0",allow-prereleases = true}
 flake8-awesome = ">=0.2.0"
-mypy = "^0.930"
+mypy = "^0.931"
 pytest = "^6.2.5"
 pytest-cov = "^3.0"
 pytest-deadfixtures = "^2.2"
