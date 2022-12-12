@@ -37,7 +37,9 @@ class TestTimeoutChecker(CheckerTestCase):
             '''
         )
 
-        with self.assertAddsMessages(MessageTest('request-without-timeout', node=node)):
+        with self.assertAddsMessages(
+            MessageTest('request-without-timeout', node=node), ignore_position=True
+        ):
             self.walk(node.root())
 
     def test_optional_param_attribute_access(self):
