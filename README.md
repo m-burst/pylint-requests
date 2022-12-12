@@ -1,7 +1,7 @@
 # pylint-requests
 
 [![pypi](https://badge.fury.io/py/pylint-requests.svg)](https://pypi.org/project/pylint-requests)
-[![Python: 3.6+](https://img.shields.io/badge/Python-3.6+-blue.svg)](https://pypi.org/project/pylint-requests)
+[![Python: 3.7+](https://img.shields.io/badge/Python-3.7+-blue.svg)](https://pypi.org/project/pylint-requests)
 [![Downloads](https://img.shields.io/pypi/dm/pylint-requests.svg)](https://pypistats.org/packages/pylint-requests)
 [![Build Status](https://github.com/m-burst/pylint-requests/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/m-burst/pylint-requests/actions/workflows/ci.yml)
 [![Code coverage](https://codecov.io/gh/m-burst/pylint-requests/branch/master/graph/badge.svg)](https://codecov.io/gh/m-burst/pylint-requests)
@@ -56,7 +56,7 @@ MIT
 
 **Unreleased**
 
-* require at least Python 3.6.2
+* require at least Python 3.7.2
 
 **0.1.1 - 2020-05-07**
 
