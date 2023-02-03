@@ -23,7 +23,7 @@ astroid = "^2.0"
 pylint = "^2.0"
 
 [tool.poetry.dev-dependencies]
-black = {version = "^22.8"}
+black = {version = "^23.1"}
 flake8-awesome = ">=0.2.0"
 mypy = "^0.991"
 pytest = "^7.2.1"
