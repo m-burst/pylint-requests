@@ -26,7 +26,7 @@ pylint = "^2.0"
 black = {version = "^23.3"}
 flake8-awesome = ">=0.2.0"
 mypy = "^1.4"
-pytest = "^7.3.2"
+pytest = "^7.4.0"
 pytest-cov = "^4.1"
 pytest-deadfixtures = "^2.2"
 pytest-mock = "^3.11.1"
