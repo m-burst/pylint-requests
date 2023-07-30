@@ -22,7 +22,7 @@ python = "^3.7.2"
 astroid = "^2.0"
 pylint = "^2.0"
 
-[tool.poetry.dev-dependencies]
+[tool.poetry.group.dev.dependencies]
 black = {version = "^23.3"}
 flake8-awesome = ">=0.2.0"
 mypy = "^1.4"
