@@ -56,7 +56,7 @@ MIT
 
 **Unreleased**
 
-* require at least Python 3.7.2
+* require at least Python 3.8.1
 
 **0.1.1 - 2020-05-07**
 
